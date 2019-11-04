@@ -1,0 +1,129 @@
+/* GLOBAL */
+
+@font-face {
+    src: url("/assets/fonts/Affogato-Black.otf");
+    font-family: Affogato-Black;
+}
+
+@font-face {
+    src: url("/assets/fonts/Affogato-Bold.otf");
+    font-family: Affogato-Bold;
+}
+  
+@font-face {
+    src: url("/assets/fonts/Affogato-Light.otf");
+    font-family: Affogato-Light;
+}
+
+@font-face {
+    src: url("/assets/fonts/Affogato-Medium.otf");
+    font-family: Affogato-Medium;
+}
+
+@font-face {
+src: url("/assets/fonts/Affogato-Regular.otf");
+font-family: Affogato-Regular;
+}
+
+
+
+
+
+
+/* NAVBAR */
+header button {
+    border: 0px !important;
+   
+}
+
+.navbar-font { 
+    font-family: Affogato-Bold;
+    font-size: 20px;
+    color: #28a1d6;
+}
+
+/* HEADER */
+
+section.header{
+    background: linear-gradient(90deg, rgba(37,159,213,1) 0%, rgba(198,246,250,1) 100%);
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+
+section.header .image-wrapper{
+    position: absolute;
+    width: 607.5px;
+}
+
+section.header h2 {
+    font-family: Affogato-Black;
+}
+
+section.header h5 {
+    font-family: Affogato-Bold;
+}
+
+section.header button {
+    background: #ffffff;
+    border-radius: 5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 16px;
+    font-family: Affogato-Bold;
+}
+
+ul.uk-slideshow-items {
+    min-height: 720px !important;
+}
+
+
+section.header .backdrop-image{
+    position: absolute;
+    top: 10rem;
+    left: -10rem;
+    z-index: 1;
+}
+
+section.header .text{
+    position: relative;
+}
+
+section.header .text1{
+    position: relative;
+    z-index: 2;
+    top: 132px;
+}
+
+/* SERVICES */ 
+
+section.services{
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+
+section.services h2{
+   font-family: Affogato-Black;
+   color: #28a1d6;
+   padding-bottom: 2rem;
+}
+
+/* PAYMENT METHOD */
+section.payment {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    background-color: #28a1d6;
+}
+
+/* CONTACT */
+section.contact {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+/* FOOTER */
+footer.footer {
+    background: linear-gradient(180deg, rgba(37,159,213,1) 0%, rgba(198,246,250,1) 100%);
+    padding-top: 2rem;
+}
