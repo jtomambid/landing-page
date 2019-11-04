@@ -109,11 +109,32 @@ section.services h2{
    padding-bottom: 2rem;
 }
 
+section.services h5 {
+    font-family: Affogato-Bold;
+    color: #28a1d6;
+    font-size: 20px;
+}
+
+section.services p{
+    font-family: Affogato-Regular;
+    color: #28a1d6;
+}
+
 /* PAYMENT METHOD */
 section.payment {
     padding-top: 6rem;
     padding-bottom: 5rem;
     background-color: #28a1d6;
+}
+
+section.payment h2 {
+    font-family: Affogato-Black;
+    
+}
+
+section.payment h5 {
+    font-family: Affogato-Bold;
+    font-size: 20px;
 }
 
 /* CONTACT */
@@ -122,8 +143,42 @@ section.contact {
     padding-bottom: 2rem;
 }
 
+section.contact h2{
+    font-family: Affogato-Black;
+    color: #28a1d6;
+}
+
+section.contact input.uk-input{
+    font-family: Affogato-Bold;
+    color: #828586;
+    background: #c2f4f9;
+}
+
+section.contact textarea.uk-textarea{
+    font-family: Affogato-Bold;
+    color: #828586;
+    background: #c2f4f9;
+}
+
+section.contact button{
+    border-radius: 7px;
+    font-family: Affogato-Bold;
+    color: #ffffff;
+    background-color: #28a1d6;
+}
+
 /* FOOTER */
 footer.footer {
-    background: linear-gradient(180deg, rgba(37,159,213,1) 0%, rgba(198,246,250,1) 100%);
+    background: linear-gradient(270deg, rgba(37,159,213,1) 0%, rgba(198,246,250,1) 100%);
     padding-top: 2rem;
+}
+
+footer.footer p{
+    font-family: Affogato-Bold;
+    color: #ffffff;
+}
+
+footer.footer h5{
+    font-family: Affogato-Bold;
+    color: #ffffff;
 }
