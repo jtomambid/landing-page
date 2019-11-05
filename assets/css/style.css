@@ -25,7 +25,14 @@ src: url("/assets/fonts/Affogato-Regular.otf");
 font-family: Affogato-Regular;
 }
 
+@font-face {
+src: url("/assets/fonts/Montserrat-Regular.otf");
+font-family: Montserrat-Regular;
+}
 
+.text-black{
+    color: #000000 !important;
+}
 
 
 
@@ -40,6 +47,17 @@ header button {
     font-family: Affogato-Bold;
     font-size: 20px;
     color: #28a1d6;
+}
+
+.menu-slide{
+    background-color: #6cc1d1;
+}
+
+.menu-slide a{
+    font-family: Montserrat-Regular;
+    font-size: 14px !important;
+    padding-left: 1rem !important;
+    padding-top: 10px !important;
 }
 
 /* HEADER */
@@ -81,7 +99,7 @@ ul.uk-slideshow-items {
 
 section.header .backdrop-image{
     position: absolute;
-    top: 10rem;
+    top: 9rem;
     left: -10rem;
     z-index: 1;
 }
@@ -94,6 +112,12 @@ section.header .text1{
     position: relative;
     z-index: 2;
     top: 132px;
+}
+
+@media only screen and (max-width: 959px) {
+    section.header .text1{
+        top: 0px;
+    }
 }
 
 /* SERVICES */ 
@@ -176,10 +200,16 @@ footer.footer {
 footer.footer p{
     font-family: Affogato-Bold;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 footer.footer h5{
     font-family: Affogato-Bold;
     color: #ffffff;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+    .margin-center{
+        margin-left: 10rem !important;
+    }
 }

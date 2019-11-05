@@ -46,14 +46,44 @@
                 </ul>
             </div>
             <div id="offcanvas-slide" uk-offcanvas="overlay: true" flip="true">
-                <div class="uk-offcanvas-bar">
+                <div class="uk-offcanvas-bar menu-slide">
             
-                    <button class="uk-offcanvas-close" type="button" uk-close></button>
+                    <button class="text-black uk-offcanvas-close" type="button" uk-close></button>
             
-                    <h3>Title</h3>
-            
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            
+                    <ul class="uk-nav uk-nav-primary uk-margin-auto-vertical">
+                        <li>
+                            <a  class="text-black" href="#">
+                                <span class="uk-margin-small-right">
+                                    <img data-src="/assets/img/slide-home.png"  sizes="" width="20px" height="" alt="" uk-img> 
+                                    Home
+                                </span> 
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-black "href="#">
+                                <span class="uk-margin-small-right">
+                                    <img data-src="/assets/img/slide-services.png"  sizes="" width="20px" height="" alt="" uk-img>
+                                    Services
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-black "href="#">
+                                <span class="uk-margin-small-right">
+                                    <img data-src="/assets/img/slide-payment.png"  sizes="" width="20px" height="" alt="" uk-img>
+                                    Payment
+                                </span> 
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-black " href="#">
+                                <span class="uk-margin-small-right">
+                                    <img data-src="/assets/img/slide-contact.png"  sizes="" width="20px" height="" alt="" uk-img>
+                                    Contact
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>        
@@ -70,7 +100,7 @@
                                 <button class="uk-button uk-button-default">DOWNLOAD THE APP</button>
                             </div>
                         </div>
-                        <div class="backdrop-image ">
+                        <div class="backdrop-image uk-visible@m ">
                             <img data-src="/assets/img/bubble-header.png"  sizes="" width="" height="" alt="" uk-img>
                         </div>
                     </div>
@@ -212,55 +242,52 @@
     </section>
     <footer class="footer">
         <div class="uk-container">
-            <div class="uk-child-width-1-2@m uk-text-center uk-flex uk-flex-center" uk-grid>
+            <div class="uk-child-width-1-2@m uk-child-width-1-1 uk-text-center uk-flex uk-flex-center uk-flex-middle" uk-grid>
                 <div>
                     <div class="uk-card">
                         <img data-src="/assets/img/logo.png"  sizes="" width="200px" height="" alt="" uk-img>
                     </div>
                 </div>
-                <div class="">
-                    <div class="uk-child-width-1-4 uk-text-center" uk-grid>
-                        <div>
-                            <div class="uk-card  ">
-                                <img data-src="/assets/img/footer-fb.png"  sizes="" width="30px" height="" alt="" uk-img>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="uk-card  ">
-                                <p>/ServicePro</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="uk-card  ">
-                                <img data-src="/assets/img/footer-yt.png"  sizes="" width="30px" height="" alt="" uk-img>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="uk-card ">
-                                <p>/ServiceProYT</p>
-                            </div>
-                        </div>
-                    </div>
                 <div>
-                    <div class="uk-child-width-1-4 uk-text-center" uk-grid>
+                    <div class="margin-center uk-grid-small uk-child-width-1-2@s uk-child-width-1-1 uk-text-center uk-flex uk-flex-middle" uk-grid>
                         <div>
-                            <div class="uk-card">
-                                <img data-src="/assets/img/footer-mail.png"  sizes="" width="30px" height="" alt="" uk-img>
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand uk-text-left">
+                                    <p>/ServicePro</p>
+                                </div>
+                                <div class="uk-width-auto uk-flex-first">
+                                    <img src="/assets/img/footer-fb.png" alt="Image">
+                                </div>
                             </div>
                         </div>
                         <div>
-                            <div class="uk-card">
-                                <p>servicepro@gmail.com</p>
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand uk-text-left">
+                                    <p>/ServiceProYT</p>
+                                </div>
+                                <div class="uk-width-auto uk-flex-first">
+                                    <img src="/assets/img/footer-yt.png" alt="Image">
+                                </div>
                             </div>
                         </div>
                         <div>
-                            <div class="uk-card">
-                                <img data-src="/assets/img/footer-call.png"  sizes="" width="30px" height="" alt="" uk-img>
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand uk-text-left">
+                                    <p>servicepro@gmail.com</p>
+                                </div>
+                                <div class="uk-width-auto uk-flex-first">
+                                    <img src="/assets/img/footer-mail.png" alt="Image">
+                                </div>
                             </div>
                         </div>
                         <div>
-                            <div class="uk-card">
-                                <p>+(82) 9999 9999</p>
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand uk-text-left">
+                                    <p>+(82) 9999 9999</p>
+                                </div>
+                                <div class="uk-width-auto uk-flex-first">
+                                    <img src="/assets/img/footer-call.png" alt="Image">
+                                </div>
                             </div>
                         </div>
                     </div>
